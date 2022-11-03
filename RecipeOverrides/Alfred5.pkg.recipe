@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.pkg.Alfred5</string>
+	<key>Input</key>
+	<dict>
+		<key>MAJOR_VERSION</key>
+		<string>5</string>
+		<key>NAME</key>
+		<string>Alfred5</string>
+		<key>RELEASE_TYPE</key>
+		<string>stable</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>io.github.hjuutilainen.pkg.Alfred5</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>AlfredURLProvider</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d64c82f0216df079e0f361d58b33ad7b93f74b5b</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/AlfredApp/AlfredURLProvider.py</string>
+				<key>sha256_hash</key>
+				<string>68b9d2cff8c6b8a9c8286b3aea3fe2d81c68243b260a2ba4a3f11c6484842cf6</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>io.github.hjuutilainen.download.Alfred5</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7bee858f9d9036741364f23e22d372dbb32d5cda</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/AlfredApp/Alfred5.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>0f4da86f610688c3eb3da9f5bd30cf3678cf22ab5a2b3ba9e84466b00c69001e</string>
+			</dict>
+			<key>io.github.hjuutilainen.pkg.Alfred5</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7bee858f9d9036741364f23e22d372dbb32d5cda</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/AlfredApp/Alfred5.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>1baabd66037e4992e8c43f5ada08642421914f04dc192ddd606ba5bf8855e5d5</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

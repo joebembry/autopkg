@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.download.Ring</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Ring</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>https://ring-mac-app-assets.s3.amazonaws.com/production/ring-appcast.xml</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joebembry.download.Ring</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.joebembry.download.Ring</key>
+			<dict>
+				<key>git_hash</key>
+				<string>7f3964847ecd2b36e04a60c550fc44a5377641c2</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.joebembry.recipes/Ring/Ring.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>b280f9059df699180a17e789fa282bab6c99d6fcd19d702de01445d83c438823</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

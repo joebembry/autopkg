@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jamf.Privileges</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Apps</string>
+		<key>INSTALLERSCRIPTS</key>
+		<string>Scripts</string>
+		<key>NAME</key>
+		<string>Privileges</string>
+		<key>PKG_CATEGORY</key>
+		<string>%CATEGORY%</string>
+		<key>STOPPROCESSINGIF_PREDICATE</key>
+		<string>download_changed == FALSE</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.jamf.privileges</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.grahampugh.jamf-upload.processors/JamfCategoryUploader</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d73a7f8f23df79b2533eec6cae558fcb48940408</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.grahampugh-recipes/JamfUploaderProcessors/JamfCategoryUploader.py</string>
+				<key>sha256_hash</key>
+				<string>c716a68b9edd6c7f662000417acf1f63f63c56f81385e077b01c5d10c9095c6f</string>
+			</dict>
+			<key>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</key>
+			<dict>
+				<key>git_hash</key>
+				<string>8af83787c25064f34e495e65ca4accd7dadcf8cd</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.grahampugh-recipes/JamfUploaderProcessors/JamfPackageUploader.py</string>
+				<key>sha256_hash</key>
+				<string>8e63318ba06264a141205d8d5b90b8563244bcf4b95538a86c0911ada71641a3</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.rtrouton.download.privileges</key>
+			<dict>
+				<key>git_hash</key>
+				<string>5d746a137799de02e10b2d169458ce362c9fb9e4</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/Privileges/Privileges.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>1e8a22a1c2ef2723d9138722fdf40aecf0a376888f73dc3be7999bc5d8c5dd0d</string>
+			</dict>
+			<key>com.github.rtrouton.jamf.privileges</key>
+			<dict>
+				<key>git_hash</key>
+				<string>637a3be60909a25c2f20a3dca6dec77324ad8844</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/Jamf_Upload/Privileges.jamf.recipe</string>
+				<key>sha256_hash</key>
+				<string>b2778be307247a1c4b1704dd4d475b9bc60579226ed8ee3da6dc98796c15d872</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.privileges</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a530903fad69863f3b79a9dc5ccb23f76954b861</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/Privileges/Privileges.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>36691e7a4a77806c341052265fee835a2b3c7894429c00c47a69e3dcab32c8c4</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

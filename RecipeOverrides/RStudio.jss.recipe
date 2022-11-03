@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.RStudio</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Office</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>RStudio</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>POLICY_TRIGGER</key>
+		<string>Install_RStudio</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Install the latest version of %NAME%.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>RStudio.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.novaksam.jss.RStudio</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.homebysix.VersionSplitter/VersionSplitter</key>
+			<dict>
+				<key>git_hash</key>
+				<string>dc086969ec741e70edcf24774d50fba627732496</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/VersionSplitter/VersionSplitter.py</string>
+				<key>sha256_hash</key>
+				<string>121f98262a70e62f58e81f16de00f69785b5aed765ed43961319759757e2d55c</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.novaksam.jss.RStudio</key>
+			<dict>
+				<key>git_hash</key>
+				<string>a4c237b5bd6c0b6df8af292cb662933aa6277771</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.novaksam-recipes/RStudio/RStudio.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>c58e0591e79200886d5493b8cc605423c9641d36cd49910030f9d46509f5f322</string>
+			</dict>
+			<key>com.github.rtrouton.download.RStudio</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d2b808db9065ca5b6ad462cd75b829445ef32308</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/RStudio/RStudio.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>2c348f0cbdfb094276a1fca385c6c6c24645cf4f3a1af38a2976c6b8b366e0c3</string>
+			</dict>
+			<key>com.github.rtrouton.pkg.RStudio</key>
+			<dict>
+				<key>git_hash</key>
+				<string>84614d29fe664a6afeb95030d8bbbeecb3addca9</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.rtrouton-recipes/RStudio/RStudio.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>e44b033db1916ad44596e4332f560c0a99e32e2c6326b9ca24bcb65deb3331c6</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

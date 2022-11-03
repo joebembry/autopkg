@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.VirtualBox</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Utility</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>VirtualBox</string>
+		<key>PKG_ID</key>
+		<string>org.virtualbox.app.VirtualBox</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>VirtualBox is a powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>VirtualBox.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.VirtualBox</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.homebysix.download.VirtualBox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>3009854a66dc994e88b0f41eb4ff6d781ed827be</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/VirtualBox/VirtualBox.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>187e6a58589f6118943c309154fa248939914c301e1d8071fddbc8d112f4c54a</string>
+			</dict>
+			<key>com.github.homebysix.pkg.VirtualBox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>14670086c18ba0c68dc0faa5d7e174bfe54192df</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/VirtualBox/VirtualBox.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>e1c8731cf0e62435f0f3d02b8180c8675c9301d463b107b53101bdc203035597</string>
+			</dict>
+			<key>com.github.jss-recipes.jss.VirtualBox</key>
+			<dict>
+				<key>git_hash</key>
+				<string>158dc5ee8f1b68774db04d461b38f420ec5ddf0c</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/VirtualBox/VirtualBox.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>0045250b17ee38fc5d73f937b33ea7e0b5dfc93fffb761861186bd9c6d1e9b3d</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

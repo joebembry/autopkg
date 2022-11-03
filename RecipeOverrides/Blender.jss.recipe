@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.Blender</string>
+	<key>Input</key>
+	<dict>
+		<key>ARCHITECTURE</key>
+		<string>x64</string>
+		<key>CATEGORY</key>
+		<string>Digital Media</string>
+		<key>Comment</key>
+		<string>Note: PlistReader without variable injection in AutoPkg requires setting "version" input key to an empty string, as below.</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>Blender</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Open source 3D graphics and animation software.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Blender.png</string>
+		<key>version</key>
+		<string></string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.Blender</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.Blender</key>
+			<dict>
+				<key>git_hash</key>
+				<string>47a8afaa91055b69ff57335e7709d4e535d2676d</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/Blender/Blender.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>905ab2e195dd293ea6a0f4fe9e8ab750f88a9954b7283d024309487f9e5b8ded</string>
+			</dict>
+			<key>io.github.hjuutilainen.download.Blender</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d3c9df4fab10c25867133a825e2ed5e2fde5d08e</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/Blender/Blender.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>66d6c1212cf4e786bfd54957facc531e83dafe4a688c23570cce58181f36d6c8</string>
+			</dict>
+			<key>io.github.hjuutilainen.pkg.Blender</key>
+			<dict>
+				<key>git_hash</key>
+				<string>29acd34c4157ed144b96469304c59491bf8d6965</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/Blender/Blender.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>2e93ac6a550e79a774a51dfcf446ca24904216dd3101db4f66edf2e4e40e9851</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

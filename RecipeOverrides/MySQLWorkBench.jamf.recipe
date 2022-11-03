@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jamf.MySQLWorkBench</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Computer Science</string>
+		<key>GROUP_NAME</key>
+		<string>MySQLWorkBench-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>JamfSmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>MySQLWorkBench</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_NAME</key>
+		<string>Install Latest %NAME%</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>JamfPolicyTemplate.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>MySQL Workbench is a unified visual tool for database architects, developers, and DBAs.</string>
+		<key>SELF_SERVICE_DISPLAY_NAME</key>
+		<string>Install Latest %NAME%</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>%NAME%.png</string>
+		<key>TESTING_GROUP_NAME</key>
+		<string>Testing</string>
+		<key>UPDATE_PREDICATE</key>
+		<string>pkg_uploaded == False</string>
+		<key>USER_AGENT</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.grahampugh-recipes.jamf.MySQLWorkBench</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict>
+			<key>com.github.grahampugh.jamf-upload.processors/JamfComputerGroupUploader</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d1834bfeeba8ff3a9cef947cbbabcf201e65d29b</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.grahampugh-recipes/JamfUploaderProcessors/JamfComputerGroupUploader.py</string>
+				<key>sha256_hash</key>
+				<string>5d0489fd9e664bc80563ba3f74df242746ccd6641985381ab1b2ad310aa373d0</string>
+			</dict>
+			<key>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d1834bfeeba8ff3a9cef947cbbabcf201e65d29b</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.grahampugh-recipes/JamfUploaderProcessors/JamfPackageUploader.py</string>
+				<key>sha256_hash</key>
+				<string>e3ca359fe843365a34e5dc542b17d3ad7d57e50a57f2fc36ba0fd43638748d89</string>
+			</dict>
+			<key>com.github.grahampugh.jamf-upload.processors/JamfPolicyUploader</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1a4a757f904d39499e93f4a36a3dfa26500b6ae0</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.grahampugh-recipes/JamfUploaderProcessors/JamfPolicyUploader.py</string>
+				<key>sha256_hash</key>
+				<string>870fb35ce8b024bb14140f896ac7096f3fbc3a7365a5d42d651d66fb57f5ba2c</string>
+			</dict>
+		</dict>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.autopkg.grahampugh-recipes.jamf.MySQLWorkBench</key>
+			<dict>
+				<key>git_hash</key>
+				<string>e60222ace3c6799ed00785298b7407aeb9eb3c41</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.grahampugh-recipes/Jamf_Recipes/MySQLWorkBench.jamf.recipe</string>
+				<key>sha256_hash</key>
+				<string>f2ca9211763ee33fcf590748bca9a22c4ed42f5c827b1678909ac344eb4d1c52</string>
+			</dict>
+			<key>com.github.homebysix.download.MySQLWorkbench</key>
+			<dict>
+				<key>git_hash</key>
+				<string>d484cf88663e2441514a851e5b9432193222a220</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/MySQLWorkbench/MySQLWorkbench.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>e12044c9660103898201ffa463e3a061aad17a9f4024aa878b1af9620b43c11b</string>
+			</dict>
+			<key>com.github.homebysix.pkg.MySQLWorkbench</key>
+			<dict>
+				<key>git_hash</key>
+				<string>43c0fb6803d6a9ba0d665294c707c8a59922ea02</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.homebysix-recipes/MySQLWorkbench/MySQLWorkbench.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>f59d8844f461c33bfa7c1ebdcf5e6d67ae20687bfa95956f2304dfc3dd361449</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

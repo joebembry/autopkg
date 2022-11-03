@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.jss.LibreOffice</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Productivity</string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%-update-smart</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>SmartGroupTemplate.xml</string>
+		<key>NAME</key>
+		<string>LibreOffice</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Testing</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>PolicyTemplate.xml</string>
+		<key>RELEASE</key>
+		<string>fresh</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Open Source personal productivity suite for Windows, Macintosh and Linux.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>LibreOffice.png</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jss-recipes.jss.LibreOffice</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.github.jss-recipes.jss.LibreOffice</key>
+			<dict>
+				<key>git_hash</key>
+				<string>1d494dc28101da3b605f94db6827b6ab8970fe77</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.jss-recipes/LibreOffice/LibreOffice.jss.recipe</string>
+				<key>sha256_hash</key>
+				<string>40d51dafc5fd26df57ea02ae4937088c6c670d12477142f1653b4da9d49bd62c</string>
+			</dict>
+			<key>io.github.hjuutilainen.download.LibreOffice</key>
+			<dict>
+				<key>git_hash</key>
+				<string>45487bf899ebd53e13ee4f902d4a3994d354290e</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/LibreOffice/LibreOffice.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>5fbdebb1151b9416e4a1d8ccdc873d9c985e795f2726aa1c3537afa595bb3f8e</string>
+			</dict>
+			<key>io.github.hjuutilainen.pkg.LibreOffice</key>
+			<dict>
+				<key>git_hash</key>
+				<string>2bbf3031013cc16a4f7239840acac5df6da77d7e</string>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes/LibreOffice/LibreOffice.pkg.recipe</string>
+				<key>sha256_hash</key>
+				<string>4c56fc439a786bf16f518fbef64eafe852734549449ee46287be80b8e5da96ea</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
